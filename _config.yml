@@ -1,5 +1,25 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://previsionweb.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+title: "Prévision Web - Code, No-code, Pseudo-code & Automatisations " # the name of your site, e.g. ACME Corp.
+author: "ML - Développeur Web"
+timezone: Europe/Paris
+lang: fr
+locale: fr_FR
 
+# build settings
 markdown: kramdown
+highlighter: rouge
+profile: true
+incremental: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+  - README.md
+  - bin
