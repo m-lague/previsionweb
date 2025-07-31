@@ -2,6 +2,8 @@
 layout: default
 
 ---
+![logo de Prévision Web](assets/images/logo.png){: style="width:380px;"}
+
 # Site en cours de construction...
 
 Il devrait être en ligne dans quelques jours.
