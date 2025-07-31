@@ -1,0 +1,23 @@
+- name: ACCUEIL
+  url: /
+
+- name: SERVICES
+  url: /services
+
+- name: TARIFS
+  url: /tarifs
+
+- name: BLOG
+  url: /blog
+
+- name: A PROPOS
+  url: /a-propos
+
+- name: FAQ
+  url: /faq
+
+- name: TÉMOIGNAGES
+  url: /temoignages
+
+- name: CONTACT
+  url: /contact
