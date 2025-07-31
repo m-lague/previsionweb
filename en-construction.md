@@ -1,7 +1,6 @@
 ---
 layout: default
-permalink: /
-redirect_to: "/en-construction"
+
 ---
 # Site en cours de construction...
 
