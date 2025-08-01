@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang='{{ site.lang | default: "fr-FR" }}'>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -17,8 +17,14 @@
     {% if site.author %}
       <meta name="author" content="{{ site.author }}">
     {% endif %}
+
   </head>
   <body>
+    <header>
+      {%- comment -%} {% include components/navbar.html %} {%- endcomment -%}
+    </header>
+    <main>
     {{ content }}
+    </main>
   </body>
 </html>

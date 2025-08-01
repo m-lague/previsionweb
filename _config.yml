@@ -1,7 +1,7 @@
 url: "https://previsionweb.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Prévision Web - Code, No-code, Pseudo-code & Automatisations " # the name of your site, e.g. ACME Corp.
-author: "ML - Développeur Web"
+author: "ML - Mathieu Lagüe - Développeur Web"
 timezone: Europe/Paris
 lang: fr
 locale: fr_FR
@@ -12,7 +12,10 @@ kramdown:
   hard_wrap: true
 highlighter: rouge
 profile: true
-incremental: true
+
+
+plugins:
+  - jekyll-tailwindcss
 
 exclude:
   - Gemfile
