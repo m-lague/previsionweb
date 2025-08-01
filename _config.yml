@@ -8,6 +8,8 @@ locale: fr_FR
 
 # build settings
 markdown: kramdown
+kramdown:
+  hard_wrap: true
 highlighter: rouge
 profile: true
 incremental: true
