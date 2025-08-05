@@ -9,16 +9,23 @@ locale: fr_FR
 # build settings
 markdown: kramdown
 kramdown:
-  hard_wrap: true
+  #hard_wrap: false
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: [1, 2, 3, 4, 5, 6]
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
 highlighter: rouge
-profile: true
+
+
 
 
 plugins:
   - jekyll-tailwindcss
 
 exclude:
-  - Gemfile
+ # - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor

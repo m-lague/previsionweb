@@ -1,23 +1,21 @@
-- name: ACCUEIL
-  url: /
-
 - name: SERVICES
   url: /services
-
+  svg:
 - name: TARIFS
   url: /tarifs
-
+  svg:
 - name: BLOG
   url: /blog
-
-- name: A PROPOS
+  svg:
+- name: "A&nbsp;PROPOS"
   url: /a-propos
-
+  svg:
 - name: FAQ
   url: /faq
-
+  svg:
 - name: TÉMOIGNAGES
   url: /temoignages
-
+  svg:
 - name: CONTACT
   url: /contact
+  svg:
