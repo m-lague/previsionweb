@@ -1,23 +1,34 @@
-- name: ACCUEIL
-  url: /
-
 - name: SERVICES
-  url: /services
+  url: "#"
+  svg:
+  sub_nav:
+    - name: Sites Internet
+      url: "#"
+    - name: Applications&nbsp;Web&nbsp;&&nbsp;Mobiles
+      url: "#"
+    - name: E-commerce
+      url: "#"
+    - name: Tunnels de vente
+      url: "#"
+    - name: SEO & Référencement
+      url: "#"
 
 - name: TARIFS
-  url: /tarifs
+  url: "#"
+  svg:
 
 - name: BLOG
-  url: /blog
-
-- name: A PROPOS
-  url: /a-propos
-
+  url: "#"
+  svg:
+- name: "A&nbsp;PROPOS"
+  url: "#"
+  svg:
 - name: FAQ
-  url: /faq
-
+  url: "/#"
+  svg:
 - name: TÉMOIGNAGES
-  url: /temoignages
-
+  url: "#"
+  svg:
 - name: CONTACT
-  url: /contact
+  url: "#"
+  svg:
