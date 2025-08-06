@@ -1,7 +1,6 @@
 ---
-layout: waiting
+layout: default
 permalink: /
 
 ---
 # Accueil
-
