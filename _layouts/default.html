@@ -23,11 +23,10 @@
     <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
   </head>
   <body>
-    <header>
-      {% include components/navbar.html %}
-    </header>
+    {% include sections/header.html %}
     <main>
     {{ content }}
     </main>
+    {% include sections/footer.html %}
   </body>
 </html>
