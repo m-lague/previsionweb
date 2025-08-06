@@ -28,3 +28,5 @@ jobs:
         with:
           github_token: $
           publish_dir: ./_site
+          publish_branch: main
+
