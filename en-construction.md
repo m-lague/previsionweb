@@ -6,4 +6,4 @@ layout: waiting
 
 Il devrait être en ligne dans quelques jours.
 En attendant vous pouvez me contacter par mail à [mathieu.lague@previsionweb.com](mailto:mathieu.lague@previsionweb.com){: .text-blue-400 }
-{: .ml-4 }
+{: .ml-4 .mb-38 }
