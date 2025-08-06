@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #FE951D;
+  --color-secondary: oklch(95.1% 0.026 236.824);
+}
 @layer base {
   summary::-webkit-details-marker {
     display: none;
