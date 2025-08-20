@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang='{{ site.lang | default: "fr-FR" }}'>
   <head>
-    {% if jekyll.environment == "production" %}
-      <meta http-equiv="refresh" content="0; url=/en-construction.html" />
-    {% endif %}
+    <!-- Meta robots pour éviter l'indexation des pages légales -->
+    <meta name="robots" content="noindex, nofollow">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
@@ -15,7 +15,7 @@
       <link rel="icon" href="{{ site.favicon | relative_url }}">
     {% endif %}
     {% if site.description %}
-      <meta name="description" content="{{ site.description }}">
+      <meta name="description" content="{{ page.description | default: site.description }}">
     {% endif %}
     {% if site.author %}
       <meta name="author" content="{{ site.author }}">
@@ -25,7 +25,7 @@
   <body>
     {% include sections/header.html %}
     <main>
-      <div class="mx-auto max-w-4xl px-4 py-8">
+      <div class="mx-auto max-w-4xl px-4 py-8 [&>h1]:text-4xl [&>h1]:text-center [&>h1]:my-8 [&>h2]:text-2xl [&>h2]:my-4 [&>h3]:text-xl [&>h3]:my-2 [&>p]:text-justify">
         {{ content }}
       </div>
     </main>

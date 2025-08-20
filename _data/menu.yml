@@ -1,6 +1,5 @@
 - name: SERVICES
   url: "#"
-  svg:
   sub_nav:
     - name: Sites Internet
       url: "#"
@@ -15,7 +14,7 @@
 
 - name: TARIFS
   url: "#"
-  svg:
+ 
 
 - name: BLOG
   url: "#"
