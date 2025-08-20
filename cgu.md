@@ -1,7 +1,7 @@
 ---
 layout: legals
 title: Conditions Générales d'Utilisation
-permalink: /conditions-generales-utilisation
+permalink: "/conditions-generales-utilisation"
 ---
 # Conditions Générales d’Utilisation (CGU)
 Version 1.1 – mise à jour le 20/08/2025

@@ -1,6 +1,7 @@
 ---
 layout: legals
 title: Mentions légales
+permalink: "/mentions-legales"
 ---
 # Mentions légales
 
