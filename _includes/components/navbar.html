@@ -36,7 +36,7 @@
                     <!-- Menu avec sous-menu -->
                     <div class="relative group">
                         <a href="{{ item.url }}"
-                        class="nav-link px-3 py-2 text-sm tracking-[1px] transition-colors border-b-2 flex items-center gap-1 group-hover:border-primary
+                        class=" h-[38px] nav-link px-3 py-2 text-sm tracking-[1px] transition-colors border-b-2 flex items-center gap-1 group-hover:border-primary
                         {% if is_current %}
                            border-primary
                         {% elsif is_parent_active %}
@@ -44,10 +44,12 @@
                         {% else %}
                             border-transparent hover:border-primary
                         {% endif %}">
-                          {{ item.name }}
-                          <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        {% assign svg_file = item.name | downcase | prepend: "components/" | append: ".svg.html"  %}
+                        {% include {{ svg_file }} %}
+
+                          <!-- <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                          </svg>
+                          </svg> -->
                         </a>
 
                       <!-- Sous-menu avec état actif -->
