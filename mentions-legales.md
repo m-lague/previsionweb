@@ -1,5 +1,6 @@
 ---
 layout: legals
+title: Mentions légales
 ---
 # Mentions légales
 
