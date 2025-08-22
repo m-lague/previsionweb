@@ -1,5 +1,5 @@
 ---
-slug: optimisation-seo-référencement
+slug: seo-optimisation-référencement
 layout: default
 ---
 test seo

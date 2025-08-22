@@ -1,4 +1,5 @@
 ---
-permalink: services/creation-sites-internet
+slug: creation-site-internet-professionnel-pour-independant
+
 ---
 test site internet
