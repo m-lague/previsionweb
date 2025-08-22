@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #FE951D;
+  --color-primary: oklch(77.8% 0.18 55.9);
   --color-secondary: oklch(95.1% 0.026 236.824);
-  --color-cta:oklch(72.3% 0.219 149.579);
+  --color-cta:oklch(72.887% 0.21192 147.841);
 }
 @layer base {
   summary::-webkit-details-marker {

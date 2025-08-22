@@ -1,7 +1,10 @@
-<section class="h-3/4 bg-gray-100">
-  <div class="grid grid-cols-1 place-items-center  px-4">
-    <h1 class="text-4xl mb-8 mt-12 text-center">{{ include.title }}</h1>
-    <p class="text-l mb-12 ">{{ include.subtitle }}</p>
-    <a href="#" class="group">{{ include.cta }}</a>
-  </div>
+<section class="relative h-3/4 pb-20 bg-white bg-[linear-gradient(to_right,oklch(97.7%_0.013_236.62)_1px,transparent_1px),linear-gradient(to_bottom,oklch(97.7%_0.013_236.62)_1px,transparent_1px)] bg-[size:24px_24px] after:content-[''] after:absolute after:inset-0 after:pointer-events-none
+  after:bg-[linear-gradient(to_bottom,white_0%,transparent_20%,transparent_80%,white_100%)]">
+
+    <div class="grid grid-cols-1 place-items-center md:grid-cols-2 px-4 md:max-w-3/4 mx-auto md:gap-8">
+      <h1 class="text-4xl mb-8 mt-12 text-center md:col-span-2 md:justify-self-start">{{ include.title }}</h1>
+      <p class="text-l mb-12 place-self-center ">{{ include.subtitle }}</p>
+      <a href="#" class="group bg-primary rounded-full px-8 py-4 md:place-self-start">{{ include.cta }}</a>
+    </div>
+
 </section>
