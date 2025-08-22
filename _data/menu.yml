@@ -1,20 +1,20 @@
 - name: SERVICES
-  url: "#"
+  url: /services
   sub_nav:
     - name: Sites Internet
-      url: "#"
+      url: /services/creation-sites-internet/
     - name: Applications&nbsp;Web&nbsp;&&nbsp;Mobiles
-      url: "#"
+      url: /services/creation-applications-web-et-mobile/
     - name: E-commerce
-      url: "#"
+      url: services/creation-boutiques-en-ligne/
     - name: Tunnels de vente
-      url: "#"
+      url: services/creation-tunnels-de-vente/
     - name: SEO & Référencement
-      url: "#"
+      url: services/optimisation-seo-référencement/
 
 - name: TARIFS
   url: "#"
- 
+
 
 - name: BLOG
   url: "#"

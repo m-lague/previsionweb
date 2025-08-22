@@ -38,3 +38,14 @@ exclude:
   - .jekyll-metadata
   - README.md
   - bin
+collections:
+  skills:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "skills"
+    values:
+      layout: "default"
+      permalink: /services/:slug/
