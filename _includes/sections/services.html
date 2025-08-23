@@ -1,5 +1,49 @@
-<section class="relative h-3/4 pb-20 bg-[linear-gradient(to_bottom,transparent,transparent_30%,white_100%)]">
-  <div class="text-center">
-    <h2 class="tex-center">Mon Titre écrit à la main</h2>
-  </div>
+<section class="relative h-3/4 pb-20 bg-gradient-to-b from-transparent from-10% to-white to-60%">
+
+    <h2 class="text-center">Mon Titre écrit à la main</h2>
+    <div class="grid grid-cols-2 h-full w-full mt-12 max-w-9/10 md:max-w-1/2 mx-auto gap-4 overflow-visible">
+      <article class="">
+        <h3 class="text-center">Site Internet</h3>
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </article>
+      <div class="flex sm:-rotate-5 overflow-visible">
+        {% include components/fleche-parcours-1.svg.html %}
+      </div>
+      <div class="flex overflow-visible">
+        DESSIN
+      </div>
+      <article class="col-start-2">
+        <h3 class="text-center">SEO</h3>
+        <p class="text-center">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </article>
+      <div class="flex overflow-visible col-span-2 justify-center">
+        {% include components/fleche-parcours-double.svg.html %}
+      </div>
+      <article class="mr-4">
+        <h3 class="text-center">App Web & Mobile</h3>
+        <p class="text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </article>
+      <article class="ml-4">
+        <h3 class="text-center">Boutique E-commerce</h3>
+        <p class="text-center">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </article>
+      <div class="flex overflow-visible col-span-2 justify-center">
+        {% include components/fleche-parcours-4.svg.html %}
+      </div>
+      <div class="flex flex-col overflow-visible rotate-y-180">
+        DESSIN
+        {% include components/fleche-parcours-1.svg.html %}
+      </div>
+      <article class="col-start-2">
+        <h3 class="text-center">Tunnel de vente</h3>
+        <p class="text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+      </article>
+      <article class="">
+        <h3 class="text-center">Automatisations</h3>
+        <p class="text-center">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos.</p>
+      </article>
+      <div class="flex sm:-rotate-5 overflow-visible">
+        DESSIN
+      </div>
+    </div>
 </section>
