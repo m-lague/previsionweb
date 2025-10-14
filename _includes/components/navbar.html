@@ -44,7 +44,7 @@
                         {% else %}
                              border-transparent hover:border-primary
                         {% endif %}">
-                        {% assign svg_file = item.name | downcase | prepend: "components/" | append: ".svg.html"  %}
+                        {% assign svg_file = item.name | downcase | prepend: "components/menu/" | append: ".svg.html" %}
                         {% include {{svg_file}} %}
 
                           <!-- <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -77,15 +77,18 @@
 
                   {% else %}
                     <!-- Menu simple sans sous-menu -->
-                    <a href="{{ item.url }}"
-                      class="nav-link px-3 py-2 text-sm tracking-[1px] transition-colors border-b-2
-                      {% if is_current %}
-                           border-primary
-                      {% else %}
-                            border-transparent hover:border-primary
-                      {% endif %}">
-                      {{ item.name }}
-                    </a>
+                    <div class="relative group">
+                      <a href="{{ item.url }}"
+                        class="nav-link  py-2 text-sm tracking-[1px] transition-colors border-b-2
+                        {% if is_current %}
+                            border-primary
+                        {% else %}
+                              border-transparent hover:border-primary
+                        {% endif %}">
+                        {% assign svg_file = item.name | downcase | replace: " ", "-" | prepend: "components/menu/" | append: ".svg.html"  %}
+                          {% include {{svg_file}} %}
+                      </a>
+                    </div>
                   {% endif %}
                 {% endfor %}
               </div>
@@ -197,3 +200,4 @@
     </div>
 
 </nav>
+

@@ -19,13 +19,13 @@
 - name: BLOG
   url: "#"
   svg:
-- name: "A&nbsp;PROPOS"
-  url: "#"
+- name: "A PROPOS"
+  url: "a-propos/"
   svg:
 - name: FAQ
   url: "/#"
   svg:
-- name: TÉMOIGNAGES
+- name: TEMOIGNAGES
   url: "#"
   svg:
 - name: CONTACT
