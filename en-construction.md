@@ -12,8 +12,6 @@ En attendant vous pouvez me contacter par mail à [mathieu.lague@previsionweb.co
 
 ## Ma dernière réalisation
 
-{: .text-2xl .mx-auto .mt-8 .text-center }
-
 [Site internet de celleouyadusable.com](https://celleouyadusable.com)
 {: .text-blue-400 .mx-auto .mb-38 .text-center}
 
